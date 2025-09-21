@@ -1,9 +1,12 @@
----
-
-````markdown
 # Business Management App
 
-**Aplikasi manajemen bisnis offline yang lengkap untuk Windows.**  
+![Python](https://img.shields.io/badge/python-3.7%2B-blue.svg)
+![Platform](https://img.shields.io/badge/platform-Windows-lightgrey.svg)
+![License](https://img.shields.io/badge/license-Proprietary-red.svg)
+![Build](https://img.shields.io/badge/build-passing-brightgreen.svg)
+![Status](https://img.shields.io/badge/status-active-success.svg)
+
+**Aplikasi manajemen bisnis offline yang lengkap untuk Windows.**
 Dibangun dengan **Python** dan **Tkinter**, menggunakan **SQLite** sebagai database offline yang ringan namun andal.
 
 ---
@@ -11,40 +14,44 @@ Dibangun dengan **Python** dan **Tkinter**, menggunakan **SQLite** sebagai datab
 ## ✨ Fitur Utama
 
 ### ✅ Fitur Tersedia
-- **Sistem Lisensi** – Proteksi dengan Hardware ID untuk Windows  
-- **Manajemen Pelanggan** – CRUD lengkap untuk data pelanggan  
-- **Manajemen Produk** – CRUD lengkap untuk data produk dengan stok  
-- **Manajemen Order** – Sistem pemesanan dengan tracking status  
-- **Dashboard** – Overview bisnis dengan statistik real-time  
-- **Backup/Restore** – Sistem backup database yang fleksibel  
-- **GUI Modern** – Antarmuka user-friendly dengan Tkinter  
+
+* **Sistem Lisensi** – Proteksi dengan Hardware ID untuk Windows
+* **Manajemen Pelanggan** – CRUD lengkap untuk data pelanggan
+* **Manajemen Produk** – CRUD lengkap untuk data produk dengan stok
+* **Manajemen Order** – Sistem pemesanan dengan tracking status
+* **Dashboard** – Overview bisnis dengan statistik real-time
+* **Backup/Restore** – Sistem backup database yang fleksibel
+* **GUI Modern** – Antarmuka user-friendly dengan Tkinter
 
 ### 🚧 Fitur dalam Pengembangan
-- **Manajemen Proses** – Tracking proses bisnis  
-- **Manajemen Keuangan** – Pencatatan transaksi keuangan  
-- **Pembuatan Nota** – Generate invoice untuk pelanggan  
-- **Laporan** – Berbagai laporan bisnis  
-- **Export Data** – Ekspor ke Excel/PDF  
+
+* **Manajemen Proses** – Tracking proses bisnis
+* **Manajemen Keuangan** – Pencatatan transaksi keuangan
+* **Pembuatan Nota** – Generate invoice untuk pelanggan
+* **Laporan** – Berbagai laporan bisnis
+* **Export Data** – Ekspor ke Excel/PDF
 
 ---
 
 ## 🖥 Persyaratan Sistem
-- Windows 7 atau lebih baru  
-- Python 3.7+ (untuk development)  
-- Ruang disk kosong minimal **100 MB**  
-- RAM minimal **512 MB**  
+
+* Windows 7 atau lebih baru
+* Python 3.7+ (untuk development)
+* Ruang disk kosong minimal **100 MB**
+* RAM minimal **512 MB**
 
 ---
 
 ## ⚙️ Instalasi
 
 ### Untuk Developer
-1. Clone atau download repository  
+
+1. Clone atau download repository
 2. Install dependencies:
+
    ```bash
    pip install -r requirements.txt
-````
-
+   ```
 3. Jalankan aplikasi:
 
    ```bash
@@ -66,11 +73,9 @@ Aplikasi ini menggunakan sistem lisensi berbasis Hardware ID.
 
 **Lisensi Demo**
 
-* Gunakan kode lisensi demo:
-
-  ```
-  DEMO-KEY-1234-5678
-  ```
+```
+DEMO-KEY-1234-5678
+```
 
 **Lisensi Penuh**
 
@@ -254,6 +259,4 @@ Penggunaan tanpa lisensi yang valid **tidak diizinkan**.
 
 © 2025 Business Management App — All rights reserved.
 
-```
-
-```
+---
