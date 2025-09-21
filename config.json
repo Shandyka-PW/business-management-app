@@ -1,0 +1,21 @@
+{
+  "app_name": "Business Management App",
+  "version": "1.0.0",
+  "database_path": "database/business.db",
+  "backup_path": "backup",
+  "license_key": "DEMO-KEY-1234-5678",
+  "company_info": {
+    "name": "Digital Home",
+    "address": "jl. simbar menjangan no.41",
+    "city": "Malang",
+    "country": "Indonesia",
+    "phone": "+6281327428390",
+    "email": "mail@queenbee.biz.id"
+  },
+  "settings": {
+    "auto_backup": true,
+    "backup_interval_days": 7,
+    "currency": "IDR",
+    "language": "id"
+  }
+}
